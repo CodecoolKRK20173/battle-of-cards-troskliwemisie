@@ -1,0 +1,184 @@
+<?xml version=" 1.0 " encoding =" utf-8 "?>
+<Cards>
+    <Card id = "Bedtime Bear">
+	<!-- miś koloru niebieskiego. Jego znaczkiem jest niebieski księżyc z żółtą gwiazdą -->
+        <Stats >
+            <Stat id = " friendliness "> 70 </Stat>
+            <Stat id = " happiness "> 22 </Stat>
+            <Stat id = " loyalty "> 50 </Stat>
+        </Stats>
+    </Card>
+    <Card id ="Birthday Bear">
+	<!-- miś koloru żółtego. Jego znaczkiem jest babeczka ze świeczką -->
+        <Stats>
+            <Stat id = " friendliness "> 97 </Stat >
+            <Stat id = " happiness "> 42 </Stat >
+            <Stat id = " loyalty "> 4 </Stat >
+        </Stats>
+    </Card>
+    <Card id = "Cheer Bear">
+	<!-- misia koloru różowego. Jej znaczkiem jest tęcza -->
+           <Stats>
+            <Stat id = " friendliness "> 65 </Stat>
+            <Stat id = " happiness "> 80 </Stat>
+            <Stat id = " loyalty "> 15 </Stat>
+        </Stats >
+    </Card >
+    <Card id = "Funshine Bear">
+	<!-- misia koloru żółtego. Jej znaczkiem jest uśmiechnięte słońce -->
+        <Stats >
+            <Stat id = " friendliness "> 15 </Stat>
+            <Stat id = " happiness "> 73 </Stat>
+            <Stat id = " loyalty "> 13 </Stat>
+        </Stats >
+    </Card>   
+    <Card id = "Good Luck Bear">
+	<!-- miś koloru zielonego. Jego znaczkiem jest czterolistna koniczyna -->
+        <Stats>
+            <Stat id = " friendliness "> 10 </Stat>
+            <Stat id = " happiness "> 100 </Stat>
+            <Stat id = " loyalty "> 25 </Stat>
+        </Stats>
+    </Card>
+    <Card id = "Love-a-Lot Bear ">
+	<!-- misia koloru różowego. Jej znaczkiem są dwa serca: różowe i czerwone -->
+        <Stats>
+            <Stat id = " friendliness "> 65 </Stat>
+            <Stat id = " happiness "> 70 </Stat>
+            <Stat id = " loyalty "> 82 </Stat>
+        </Stats>
+    </Card>
+    <Card id = "Tenderheart Bea">
+	<!-- miś koloru brązowego. Jego znaczkiem jest czerwone serce z różową obwódką. Jest liderem innych misiów -->
+        <Stats>
+            <Stat id = " friendliness "> 17 </Stat>
+            <Stat id = " happiness "> 22 </Stat>
+            <Stat id = " loyalty "> 100 </Stat>
+        </Stats>
+    </Card>
+    <Card id =" Wish Bear ">
+	<!-- misia koloru turkusowego. Jej znaczkiem jest spadająca gwiazda z pomarańczową wstęgą -->
+        <Stats>
+            <Stat id =" friendliness"> 55 </Stat>
+            <Stat id =" happiness"> 73 </Stat>
+            <Stat  id =" loyalty"> 45 </Stat>
+        </Stats>
+    </Card>
+    <Card id =" Baby Hugs Bear ">
+	<!-- misia koloru różowego. Jej znaczkiem jest gwiazda w pudełku w kształcie różowego serca. Jest bliźniaczą siostrą Hultaja -->
+        <Stats>
+            <Stat id =" friendliness "> 63 </Stat>
+            <Stat id =" happiness "> 44 </Stat>
+            <Stat id =" loyalty "> 20 </Stat>
+        </Stats>
+    </Card>
+    <Card id= "Baby Tugs Bear">
+	<!-- miś koloru błękitnego. Jego znaczkiem jest gwiazda z błękitną chustką. Jest bliźniaczym bratem Pysi -->
+            <Stats>
+            <Stat id =" friendliness "> 65 </Stat>
+            <Stat id =" happiness "> 48 </Stat>
+            <Stat id =" loyalty "> 10 </Stat>
+        </Stats>
+    </Card>
+    <Card id = "Champ Bear ">
+    <!-- miś koloru pomarańczowego. Jego znaczkiem jest złoty puchar z sercem -->
+            <Stats>
+            <Stat id =" friendliness "> 60 </Stat>
+            <Stat id =" happiness "> 34 </Stat>
+            <Stat id =" loyalty "> 90 </Stat>
+        </Stats>
+    </Card>
+    <Card id = "Daydream Bear">
+    <!-- misia koloru fioletowego. Jej znaczkiem jest różowe serce ze złotym pierścieniem wokoło -->
+     <Stats>
+            <Stat id =" friendliness "> 14 </Stat>
+            <Stat id =" happiness "> 75 </Stat>
+            <Stat id =" loyalty "> 50 </Stat>
+        </Stats>
+    </Card>
+    <Card id = "Grams Bear">
+	<!-- misia koloru szarego. Jej znaczkiem jest czerwona róża z żółtą wstążką -->
+            <Stats>
+            <Stat id =" friendliness "> 26 </Stat>
+            <Stat id =" happiness "> 78 </Stat>
+            <Stat id =" loyalty "> 40 </Stat>
+        </Stats>
+    </Card>
+    <Card id = " Harmony Bear ">
+	<!-- misia koloru fioletowego. Jej znaczkiem jest duże czerwone serce i dwa różowe mniejsze -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 30 </Stat>
+            <Stat id =" happiness "> 70 </Stat>
+            <Stat id =" loyalty "> 60 </Stat>
+        </Stats>
+    </Card>
+    <Card id="Secret Bear">
+	<!-- miś koloru pomarańczowego. Jego znaczkiem jest czerwona kłódka w kształcie serca -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 11 </Stat>
+            <Stat id =" happiness "> 40 </Stat>
+            <Stat id =" loyalty "> 100 </Stat>
+        </Stats>
+    </Card>
+    <Card id= " Polite Panda ">
+	<!-- panda koloru szarego. Jej znaczkiem jest różowa róża z kremową wstążką -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 88 </Stat>
+            <Stat id =" happiness "> 45 </Stat>
+            <Stat id =" loyalty "> 89 </Stat>
+        </Stats>
+    </Card>
+    <Card id="Perfect Panda">
+	<!-- panda koloru szarego.Jego znaczkiem jest gwiazda z niebieską wstążką -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 74 </Stat>
+            <Stat id =" happiness "> 91 </Stat>
+            <Stat id =" loyalty "> 90 </Stat>
+        </Stats>
+    </Card>
+    <Card id="Share Bear">
+	<!-- misia koloru fioletowego. Jej znaczkiem jest koktajl z sercami -->
+        <Stats>
+            <Stat id =" friendliness "> 85 </Stat>
+            <Stat id =" happiness "> 76 </Stat>
+            <Stat id =" loyalty "> 72 </Stat>
+        </Stats>
+    </Card>
+    <Card id ="True Heart Bear">
+	<!-- misia koloru kremowego. Jej znaczkiem kolorowa gwiazda z różowym sercem -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 81 </Stat>
+            <Stat id =" happiness "> 45 </Stat>
+            <Stat id =" loyalty "> 86 </Stat>
+        </Stats>
+    </Card>
+    <Card id ="Brave Heart Lion">
+	<!-- lew koloru pomarańczowego. Jego znaczkiem jest serce z koroną -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 12 </Stat>
+            <Stat id =" happiness "> 6 </Stat>
+            <Stat id =" loyalty "> 95 </Stat>
+        </Stats>
+    </Card>
+    <Card id ="Bright Heart Raccoon">
+	<!-- szop koloru fioletowego. Jego znaczkiem jest żarówka w kształcie serca -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 16 </Stat>
+            <Stat id =" happiness "> 28 </Stat>
+            <Stat id =" loyalty "> 2 </Stat>
+        </Stats>
+    </Card>
+    <Card id ="Treat Heart Pig">
+	<!-- świnka koloru żółtego. Jej znaczkiem jest lód z sercem -->
+ 	    <Stats>
+            <Stat id =" friendliness "> 11 </Stat>
+            <Stat id =" happiness "> 4 </Stat>
+            <Stat id =" loyalty "> 0 </Stat>
+        </Stats>
+    </Card>
+</Cards>
+
+     
+     
+
+   
