@@ -1,4 +1,4 @@
-package app.java.services;
+package app.java.repositories;
 
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
