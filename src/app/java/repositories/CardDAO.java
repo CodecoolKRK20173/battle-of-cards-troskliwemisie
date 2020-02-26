@@ -5,51 +5,58 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class CardDAO{
-    private XMLParser parser = new XMLParser();
+public class CardDAO {
+
     private CardRepository cardRepository;
+    private XMLParser loadDoc = new XMLParser();
 
     public CardDAO() {
-        this.cardRepository = cardRepository;
-    }
-
-    public void parse() {
-        parser.loadXmlDocument("careBears.xml");
-
-        NodeList nList = parser.doc.getElementsByTagName("Card");
-
-
-
-        for (int i = 0; i < nList.getLength(); i++) {
-            Node nodeCard = nList.item(i);
-            Element card = (Element) nodeCard;
-
-            String cardId = card.getAttribute("id");
-
-            NodeList nodeStats = nodeCard.getChildNodes().item(1).getChildNodes();
-
-            List<Integer> statsList = new ArrayList<>();
-            for (int j = 1; j < nodeStats.getLength(); j = j + 2) {
-                Node nodestat = nodeStats.item(j);
-                Element stat = (Element) nodestat;
-
-                String statId = stat.getAttribute("id");
-                int statValue = Integer.parseInt(nodestat.getTextContent());
-                statsList.add(statValue);
-
-                Card cardToAdd = new Card(cardId, statsList.get(0), statsList.get(1), statsList.get(2));
-                cardToAdd.addStats(cardId, statValue);
-            }
-
-
-        }
-
+        this.cardRepository = new CardRepository();
     }
 
     public CardRepository getCardRepository() {
+        return cardRepository;
+    }
+
+    public void collectAnswers() {
+        parse();
+    }
+
+    public void parse() {
+        loadDoc.loadXmlDocument("careBears.xml");
+
+        NodeList nList = loadDoc.doc.getDocumentElement().getChildNodes();
+
+        for (int i = 0; i < nList.getLength(); i++) {
+            if (nList.item(i).getNodeType() != Node.ELEMENT_NODE) {
+                continue;
+            }
+            Node nNode = nList.item(i);
+            Element eElement = (Element) nNode;
+
+            String factId = eElement.getAttribute("id");
+
+            Card card = new Card(factId);
+
+            NodeList statsList = eElement.getElementsByTagName("Stats").item(0).getChildNodes();
+
+            for (int j = 0; j < statsList.getLength(); j++) {
+                if (statsList.item(j).getNodeType() != Node.ELEMENT_NODE) {
+                    continue;
+                }
+
+                Node statNode = statsList.item(j);
+                String statId = statNode.getAttributes().getNamedItem("id").getTextContent();
+                Integer statValue = Integer.valueOf(statNode.getTextContent());
+
+                card.addStat(statId, statValue);
+            }
+            cardRepository.addCard(card);
+        }
+    }
+
+    public CardRepository getFactRepository() {
         return cardRepository;
     }
 }

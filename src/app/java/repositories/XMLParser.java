@@ -10,12 +10,11 @@ import java.io.File;
 import java.io.IOException;
 
 public class XMLParser {
+
     protected Document doc;
 
     public void loadXmlDocument(String xmlPath) {
-        try {
-
-            File fXmlFile = new File(xmlPath);
+        try { File fXmlFile = new File(xmlPath);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             doc = dBuilder.parse(fXmlFile);

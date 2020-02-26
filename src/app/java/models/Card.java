@@ -4,17 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Card {
+
     private String id;
     private int friendless;
     private int happiness;
     private int loyalty;
     private Map<String, Integer> stats;
 
-    public Card(String id, int friendless, int happiness, int loyalty) {
+    public Card(String id) {
         this.id = id;
-        this.friendless = friendless;
-        this.happiness = happiness;
-        this.loyalty = loyalty;
+//        this.friendless = friendless;
+//        this.happiness = happiness;
+//        this.loyalty = loyalty;
         this.stats = new HashMap<>();
     }
 
@@ -38,8 +39,8 @@ public class Card {
         return stats;
     }
 
-    public void addStats(String stat, Integer id){
-        stats.put(stat, id);
+    public void addStat(String stat, Integer value){
+        stats.put(stat, value);
     }
 
 }
